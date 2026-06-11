@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenny | AI Applications Developer</title>
+    <meta name="description" content="AI Applications Developer specializing in building intelligent systems and full-stack AI solutions.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">&lt;K /&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-tag">&#x1F44B; Hello, I'm</p>
+                <h1 class="hero-title">
+                    <span class="hero-name">Kenny</span>
+                    <span class="hero-role" id="typed-role"></span>
+                    <span class="cursor">|</span>
+                </h1>
+                <p class="hero-desc">
+                    I build intelligent applications that combine modern full-stack engineering
+                    with AI/ML to solve real-world problems. From LLM-powered tools to
+                    production ML pipelines — I turn ideas into deployed systems.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="15">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Projects Built</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="8">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="3">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="code-title">ai_developer.py</span>
+                    </div>
+                    <pre class="code-body"><code><span class="kw">class</span> <span class="fn">Kenny</span>(Developer):
+    <span class="kw">def</span> <span class="fn">__init__</span>(self):
+        self.role = <span class="str">"AI Applications Developer"</span>
+        self.location = <span class="str">"Pittsburgh, PA"</span>
+        self.passions = [
+            <span class="str">"LLMs &amp; Generative AI"</span>,
+            <span class="str">"Full-Stack Development"</span>,
+            <span class="str">"Building Cool Stuff"</span>,
+        ]
+
+    <span class="kw">def</span> <span class="fn">build</span>(self, idea):
+        <span class="cm"># Turn ideas into deployed AI apps</span>
+        solution = self.design(idea)
+        solution = self.engineer(solution)
+        <span class="kw">return</span> self.deploy(solution)</code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-grid"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">01 — About</span>
+                <h2 class="section-title">Who I Am</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm an AI Applications Developer based in <strong>Pittsburgh, PA</strong>,
+                        passionate about building software that thinks. My work sits at the
+                        intersection of modern web development and artificial intelligence —
+                        I don't just integrate APIs, I design systems that learn, adapt, and
+                        deliver real value.
+                    </p>
+                    <p>
+                        Whether it's building RAG pipelines for enterprise knowledge bases,
+                        crafting conversational AI interfaces, or deploying ML models at scale,
+                        I focus on shipping production-ready solutions — not just prototypes.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring the latest in AI research,
+                        contributing to open source, and experimenting with new tools and frameworks.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <span class="highlight-icon">📍</span>
+                            <span>Pittsburgh, PA (Open to Remote)</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-icon">🎯</span>
+                            <span>AI Applications &amp; Full-Stack Engineering</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-icon">🚀</span>
+                            <span>Shipping production AI systems</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <h3>Quick Facts</h3>
+                    <ul class="fact-list">
+                        <li><span class="fact-label">Focus</span><span class="fact-value">AI / ML Applications</span></li>
+                        <li><span class="fact-label">Stack</span><span class="fact-value">Python, TypeScript, React</span></li>
+                        <li><span class="fact-label">AI Tools</span><span class="fact-value">OpenAI, LangChain, Hugging Face</span></li>
+                        <li><span class="fact-label">Cloud</span><span class="fact-value">AWS, GCP, Docker</span></li>
+                        <li><span class="fact-label">Status</span><span class="fact-value status-open">✦ Open to Opportunities</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">02 — Skills</span>
+                <h2 class="section-title">Tech Stack</h2>
+                <p class="section-subtitle">The tools and technologies I use to build intelligent applications.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🧠</div>
+                    <h3>AI / ML</h3>
+                    <div class="skill-tags">
+                        <span>OpenAI API</span>
+                        <span>LangChain</span>
+                        <span>Hugging Face</span>
+                        <span>RAG Pipelines</span>
+                        <span>Vector Databases</span>
+                        <span>Prompt Engineering</span>
+                        <span>Fine-tuning</span>
+                        <span>Computer Vision</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>Node.js</span>
+                        <span>PostgreSQL</span>
+                        <span>Redis</span>
+                        <span>GraphQL</span>
+                        <span>REST APIs</span>
+                        <span>WebSockets</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>React</span>
+                        <span>TypeScript</span>
+                        <span>Next.js</span>
+                        <span>Tailwind CSS</span>
+                        <span>HTML/CSS</span>
+                        <span>Vite</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>DevOps & Cloud</h3>
+                    <div class="skill-tags">
+                        <span>Docker</span>
+                        <span>AWS</span>
+                        <span>GCP</span>
+                        <span>CI/CD</span>
+                        <span>GitHub Actions</span>
+                        <span>Linux</span>
+                        <span>Terraform</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">03 — Projects</span>
+                <h2 class="section-title">What I've Built</h2>
+                <p class="section-subtitle">A selection of projects that showcase my skills and interests.</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-badge">AI / LLM</div>
+                    <h3>AI Knowledge Assistant</h3>
+                    <p>A RAG-powered chatbot that indexes company documents and provides accurate, cited answers. Built with LangChain, Pinecone, and a React frontend.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>LangChain</span>
+                        <span>React</span>
+                        <span>Pinecone</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">GitHub →</a>
+                        <a href="#" class="project-link">Live Demo →</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-badge">Full-Stack</div>
+                    <h3>AI Code Review Bot</h3>
+                    <p>GitHub App that automatically reviews pull requests using GPT-4, providing line-by-line feedback, security analysis, and code suggestions.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>OpenAI</span>
+                        <span>GitHub API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">GitHub →</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-badge">ML Pipeline</div>
+                    <h3>Real-Time Sentiment Dashboard</h3>
+                    <p>Streaming analytics dashboard that monitors social media sentiment using NLP models, with real-time WebSocket updates and interactive visualizations.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Hugging Face</span>
+                        <span>Next.js</span>
+                        <span>WebSockets</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">GitHub →</a>
+                        <a href="#" class="project-link">Live Demo →</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-badge">Automation</div>
+                    <h3>Smart Document Processor</h3>
+                    <p>Automated pipeline that extracts, classifies, and summarizes data from PDFs and images using OCR and LLMs. Handles 1000+ documents/hour.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>GPT-4 Vision</span>
+                        <span>AWS Lambda</span>
+                        <span>S3</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">GitHub →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">04 — Contact</span>
+                <h2 class="section-title">Let's Build Something</h2>
+                <p class="section-subtitle">
+                    I'm currently open to new opportunities — remote or Pittsburgh-based.
+                    If you're working on something interesting in AI, let's talk.
+                </p>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:kenny@example.com" class="contact-card">
+                    <span class="contact-icon">✉️</span>
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">kenny@example.com</span>
+                </a>
+                <a href="https://github.com/kenny" target="_blank" class="contact-card">
+                    <span class="contact-icon">💻</span>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">github.com/kenny</span>
+                </a>
+                <a href="https://linkedin.com/in/kenny" target="_blank" class="contact-card">
+                    <span class="contact-icon">🔗</span>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">linkedin.com/in/kenny</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>Built with ☕ and curiosity — <span id="year"></span></p>
+            <p class="footer-sub">Pittsburgh, PA</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
